@@ -1,10 +1,11 @@
 # some-useful
 
-> 一些好东西（可能吧）
-
 ##README部分开放编辑，提PR（只改./README）可以自动合并
 
----
-
+##some-useful-URl(maybe
 https://www.loliapi.com/acg
+https://github.com/minbrowser/min
+https://github.com/Anime2375/Free-Proxy-VPN
+https://github.com/DiningFactory/panda-vpn-pro
+
 
