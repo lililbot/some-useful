@@ -14,7 +14,7 @@ https://github.com/DiningFactory/panda-vpn-pro
 
 ## 不知道好不好用的梯
 
-> ZNMunRGA is my invitation code. You can top up ten billion, then I can take three billion.
+> ZNMunRGA is my invitation code. You can top-up ten billion, then I can take three billion.
 
 https://xn--9kqz23b19z.com/#/register?code=ZNMunRGA
 
