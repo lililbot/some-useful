@@ -1,0 +1,36 @@
+name: Auto-merge README-only PRs
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  auto-merge:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.draft == false
+    steps:
+      - name: Auto-merge if only README.md
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          PR=${{ github.event.pull_request.number }}
+          REPO=${{ github.repository }}
+
+          # 获取 PR 改动的所有文件
+          FILES=$(gh api repos/$REPO/pulls/$PR/files --jq '.[].filename')
+          echo "Changed files:"
+          echo "$FILES"
+
+          # 排除 README.md 后，如果还有别的文件，就跳过
+          OTHER=$(echo "$FILES" | grep -v '^README\.md$' || true)
+
+          if [ -n "$FILES" ] && [ -z "$OTHER" ]; then
+            echo "Only README.md changed. Enabling auto-merge..."
+            gh pr merge $PR --repo $REPO --squash --auto
+          else
+            echo "Other files changed. Skipping."
+          fi
