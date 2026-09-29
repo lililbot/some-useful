@@ -12,7 +12,7 @@ https://github.com/Anime2375/Free-Proxy-VPN
 
 https://github.com/DiningFactory/panda-vpn-pro
 
-## 不好用的梯！！！拉完了，还是我nanocloud香
+## 不好用的梯！！！拉完了，还是我nanocloud和Phantom香
 
 > ZNMunRGA is my invitation code. You can top-up ten billion, then I can take three billion.
 
