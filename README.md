@@ -2,7 +2,7 @@
 
 ## README部分开放编辑，提PR（只改./README）可以自动合并
 
-## some-useful-URl(maybe
+## some-useful-URL(maybe
 
 https://10minutemail.com/
 
