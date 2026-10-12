@@ -14,5 +14,8 @@ https://github.com/Anime2375/Free-Proxy-VPN
 
 https://github.com/DiningFactory/panda-vpn-pro
 
+## Comparative teaching of TS and PY provided by GPT-6-Astra
+[ts-via-python.zip](ts-via-python.zip)
+
 
 
